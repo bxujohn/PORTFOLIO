@@ -1,14 +1,9 @@
-import React from "react";
-import Profile from "./Profile";
-import Footer from "./Footer/Footer";
-import "./Home.css";
+import React from 'react'
 
-export default function Home(){
-    return(
-        <div className="home-container">
-            <Profile />
-            <Footer />
-        </div>
-    );
+export const Home = () => {
+  return (
+    <div>
+        <h3>This is home section.</h3>
+    </div>
+  )
 }
-
